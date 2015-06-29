@@ -1,10 +1,34 @@
 body{
     background-image: url(images/mountainbg.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
     font-family: Arial, Helvetica, sans-serif;
     /* hex code for background bottom extend: #b5c6d5 */
 }
-#header-box{
+#navContainer{
+    background-color: black;
+    opacity: .4;
+    width: auto;
+    margin: auto;
+    padding: 5px;
+    position: relative;
+    display: block;
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+    color: skyblue;
+    margin-bottom: -1%;
+}
+h2{
+    font-family: Helvetica;
+    text-align: center;
+    font-size: 25px;
+    color: slategray;
+}
+.header-box{
     background: rgba(0,0,0,0.7);
+    opacity: .25;
     width: 100%;
     height: 10%;
     padding: 0px;
@@ -17,6 +41,7 @@ body{
     display: inline;
 }
 .navContainer li{
+    font-family: Helvetica;
     color: slategrey;
     font-size: 25px;
 }
