@@ -1,5 +1,5 @@
 body{
-    background-image: url(images/mountainbg.jpg);
+    background-image: url(images/mountainbgOPTIMIZED.jpg);
     background-repeat: no-repeat;
     background-position: top;
     font-family: Arial, Helvetica, sans-serif;
@@ -16,15 +16,23 @@ body{
 }
 h1{
     text-align: center;
-    font-size: 60px;
+    font-size: 50px;
     color: skyblue;
-    margin-bottom: -1%;
+    margin-bottom: -10px;
+    font-weight: bolder;
+}
+h1:hover{
+    cursor: default;
 }
 h2{
-    font-family: Helvetica;
+    font-family: arial;
     text-align: center;
-    font-size: 25px;
+    font-size: 15px;
+    font-weight: lighter;
     color: slategray;
+}
+h2:hover{
+    cursor: default;
 }
 .header-box{
     background: rgba(0,0,0,0.7);
@@ -37,13 +45,14 @@ h2{
 }
 .navContainer{
     margin: 0px auto;
-    text-align: center;
     display: inline;
+    text-align: center;
 }
 .navContainer li{
     font-family: Helvetica;
     color: slategrey;
-    font-size: 25px;
+    font-size: 30px;
+    padding: 2px;
 }
 .navContainer li a{
     text-decoration: none;
