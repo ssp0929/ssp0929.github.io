@@ -1,48 +1,33 @@
+html { 
+  background: url(images/monacobayOPTIMIZED.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 body{
-    background-image: url(images/mountainbgOPTIMIZED.jpg);
-    background-repeat: no-repeat;
-    background-position: top;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
     /* hex code for background bottom extend: #b5c6d5 */
 }
-.background-image {
-  position: fixed;
-  left: 0;
-  right: 0;
-  z-index: 1;
-
-  display: block;
-  background-image: url(images/mountainbgOPTIMIZED.jpg);
-  width: 1920px;
-  height: 1080px;
-
-  -webkit-filter: blur(5px);
-  -moz-filter: blur(5px);
-  -o-filter: blur(5px);
-  -ms-filter: blur(5px);
-  filter: blur(5px);
-}
-#navContainer{
+#headerContainer{
     background-color: black;
-    opacity: .6;
-    width: auto;
+    opacity: .3;
+    width: 100%;
     margin: auto;
-    padding: 5px;
+    padding: 1px;
     position: relative;
     display: block;
-    z-index: 9999;
 }
 h1{
     text-align: center;
     font-size: 50px;
     color: white;
     margin-bottom: -10px;
-    font-weight: bolder;
-    z-index: 9999;
+    font-weight: lighter;
 }
 h1:hover{
     cursor: default;
-    z-index: 9999;
 }
 h2{
     font-family: arial;
@@ -50,53 +35,21 @@ h2{
     font-size: 15px;
     font-weight: lighter;
     color: slategray;
-    z-index: 9999;
 }
 h2:hover{
     cursor: default;
-    z-index: 9999;
-}
-.header-box{
-    background: rgba(0,0,0,0.7);
-    opacity: .25;
-    width: 100%;
-    height: 10%;
-    padding: 0px;
-    margin: 0 auto;
-    position: relative;
-    z-index: 9999;
 }
 .navContainer{
-    margin: 0px auto;
-    display: inline;
     text-align: center;
-    z-index: 9999;
+    list-style-type: none;
 }
 .navContainer li{
-    font-family: Helvetica;
-    color: slategrey;
-    font-size: 30px;
-    padding: 2px;
-    z-index: 9999;
-}
-.navContainer li a{
-    text-decoration: none;
-    color: inherit;
-    z-index: 9999;
+    display: inline-block;
+    padding: 25px;
+    opacity: .4;
 }
 .navContainer li:hover{
-    color: steelblue;
-    z-index: 9999;
-}
-#contactContainer{
-    background-color: black;
-    opacity: .6;
-    width: auto;
-    margin: auto;
-    padding: 5px;
-    position: relative;
-    display: block;
-    z-index: 9999;
+    opacity: 1;
 }
     
 
