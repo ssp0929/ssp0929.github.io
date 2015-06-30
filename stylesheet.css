@@ -5,24 +5,44 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     /* hex code for background bottom extend: #b5c6d5 */
 }
+.background-image {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1;
+
+  display: block;
+  background-image: url(images/mountainbgOPTIMIZED.jpg);
+  width: 1920px;
+  height: 1080px;
+
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
 #navContainer{
     background-color: black;
-    opacity: .4;
+    opacity: .6;
     width: auto;
     margin: auto;
     padding: 5px;
     position: relative;
     display: block;
+    z-index: 9999;
 }
 h1{
     text-align: center;
     font-size: 50px;
-    color: skyblue;
+    color: white;
     margin-bottom: -10px;
     font-weight: bolder;
+    z-index: 9999;
 }
 h1:hover{
     cursor: default;
+    z-index: 9999;
 }
 h2{
     font-family: arial;
@@ -30,9 +50,11 @@ h2{
     font-size: 15px;
     font-weight: lighter;
     color: slategray;
+    z-index: 9999;
 }
 h2:hover{
     cursor: default;
+    z-index: 9999;
 }
 .header-box{
     background: rgba(0,0,0,0.7);
@@ -42,25 +64,41 @@ h2:hover{
     padding: 0px;
     margin: 0 auto;
     position: relative;
+    z-index: 9999;
 }
 .navContainer{
     margin: 0px auto;
     display: inline;
     text-align: center;
+    z-index: 9999;
 }
 .navContainer li{
     font-family: Helvetica;
     color: slategrey;
     font-size: 30px;
     padding: 2px;
+    z-index: 9999;
 }
 .navContainer li a{
     text-decoration: none;
     color: inherit;
+    z-index: 9999;
 }
 .navContainer li:hover{
-    color: deepskyblue;
+    color: steelblue;
+    z-index: 9999;
 }
+#contactContainer{
+    background-color: black;
+    opacity: .6;
+    width: auto;
+    margin: auto;
+    padding: 5px;
+    position: relative;
+    display: block;
+    z-index: 9999;
+}
+    
 
 
     
