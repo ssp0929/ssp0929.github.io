@@ -7,17 +7,8 @@ html {
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0px;
+    margin: 0px auto;
     /* hex code for background bottom extend: #b5c6d5 */
-}
-#headerContainer{
-    background-color: black;
-    opacity: .3;
-    width: 100%;
-    margin: auto;
-    padding: 1px 0px 40px 0px;
-    position: relative;
-    display: block;
 }
 h1{
     text-align: center;
@@ -39,14 +30,23 @@ h2{
 h2:hover{
     cursor: default;
 }
+h3{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+}
 .navContainer{
+    background-color: black;
+    opacity: .5;
+    width: 50%;
+    padding: inherit;
+    margin: 5% auto;
     text-align: center;
-    list-style-type: none;
 }
 .navContainer li{
     display: inline-block;
-    padding: 25px;
-    opacity: .4;
+    padding: 10px;
+    opacity: .7;
 }
 .navContainer li:hover{
     opacity: 1;
