@@ -16,13 +16,15 @@
     </script>
     <script>
         $(document).ready(function(){
-            $('body').hide().delay(600).fadeIn(2000); 
+            $(".opaqueBackground").delay(600).fadeOut(1000);
+            $(".navContainer").hide().delay(2000).fadeIn(2000); 
         });
     </script>
     <!-- Fade in website on load. -->
 </head>
 <body>
-    
+    <div class="opaqueBackground"></div>
+    <!-- will fadeOut on load -->
     <ul class="navContainer">
         <h1>Stephen Park</h1>
         <h2>University of Texas at Austin • B.S.A. Computer Science • 2017</h2>
