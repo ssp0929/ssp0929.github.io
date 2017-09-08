@@ -48,7 +48,8 @@ h3 {
     background-color: black;
     opacity: .5;
     width: 100%;
-    padding: inherit;
+    padding-top: 20px;
+    padding-bottom: 50px;
     margin: 5% auto;
     text-align: center;
 }
