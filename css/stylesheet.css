@@ -1,10 +1,17 @@
 @charset 'UTF-8';
+
+/*
 html {
   background: url(images/monacobayOPTIMIZED.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+*/
+
+html{
+  background-color: #181818;
 }
 
 /* animations */
