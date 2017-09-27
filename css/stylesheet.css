@@ -1,15 +1,5 @@
 @charset 'UTF-8';
 
-/*
-html {
-  background: url(images/monacobayOPTIMIZED.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-*/
-
 html{
   background-color: #181818;
 }
@@ -49,39 +39,6 @@ h3 {
   font-family: sans-serif;
   font-size: 20px;
   color: white;
-}
-
-.navBar {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 3;
-}
-
-.navBar li {
-  float: left;
-  border-right: 1px solid #868686;
-}
-
-.navBar li:last-child {
-  border-right: none;
-}
-
-.navBar li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-.navBar li a:hover {
-  background-color: #111;
 }
 
 .navContainer {
