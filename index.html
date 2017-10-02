@@ -11,8 +11,11 @@
 	<link rel="icon" type="image/png" href="css/images/favicon.png" />
 	<!-- Favicon above. -->
 
-  	<link rel="stylesheet" href="css/stylesheet.css"/>
+  <link rel="stylesheet" href="css/stylesheet.css"/>
 	<!-- Imported CSS stylesheet above. -->
+
+	<script type="text/javascript" src="js/main.js"></script>
+	<!-- Import JavaScript above. -->
 </head>
 
 <body>
@@ -25,22 +28,22 @@
 					<img src="css/images/personalpicture.png" alt="Personal Picture">
 				</li>
 				<li>
-					<a href="https://github.com/ssp0929">
+					<a href="https://github.com/ssp0929" target="_blank">
 						<img src="css/images/iconsets/github.png" alt="Github">
 					</a>
 				</li>
 				<li>
-					<a href="https://www.linkedin.com/in/stephenspark">
+					<a href="https://www.linkedin.com/in/stephenspark" target="_blank">
 						<img src="css/images/iconsets/linkedin.png" alt="LinkedIn">
 					</a>
 				</li>
 				<li>
-					<a href="/files/StephenParkResumePage1.pdf">
+					<a href="/files/StephenParkResumePage1.pdf" target="_blank">
 						<img src="css/images/iconsets/resume.png" alt="Resume">
 					</a>
 				</li>
 				<li>
-					<a href="mailto:stephenspark@utexas.edu">
+					<a href="mailto:stephenspark@utexas.edu" target="_blank">
 						<img src="css/images/iconsets/email.png" alt="Email">
 					</a>
 				</li>
@@ -58,7 +61,60 @@
 		<div class="contentWrapper">
 			<div class="contentContainer">
 				<h3>Projects</h3>
-				<p>Todo...</p>
+				<div class="projectContainer">
+					<figure>
+						<h3>Discord Python Bot</h3>
+						<figcaption>
+							<p>
+								Basic discord bot written on Python, deployed on Heroku, used on a Discord server I admin.
+								Responds to user commands, and makes a daily API call to update data in memory.
+								Currently deployed on Heroku and is designed to run 24/7.
+							</p>
+							<a href="https://github.com/ssp0929/python-discord-bot" target="_blank">
+								<button>Source Code</button>
+							</a>
+						</figcaption>
+					</figure>
+					<figure>
+						<h3>CSGO Autoexec Generator</h3>
+						<img src="css/images/pf-ex1.png" width="500" height="300" alt="placeholder"/>
+						<figcaption>
+							<p>
+								Web application that helps users generate an autoexec for Counter Strike: Global Offensive.
+								Deployed on Heroku, front-end skeleton is in place. Base functionality is still in process of being added.
+							</p>
+							<a href="https://github.com/ssp0929/csgo-autoexec-generator" target="_blank">
+								<button>Source Code</button>
+							</a>
+							<a href="https://powerful-plateau-65843.herokuapp.com/#/" target="_blank">
+								<button>Live Demo</button>
+							</a>
+						</figcaption>
+					</figure>
+					<figure>
+							<h3>Auction Website</h3>
+							<img src="css/images/pf-ex2.png" width="500" height="300" alt="placeholder"/>
+							<figcaption>
+								<p>
+									Auction web appliation created for a PHP/SQL class. Utilizes the full LAMP stack.
+									Deployed on Heroku and in the process of refactoring front end to ReactJS and backend to Node/PostgresQL.
+									Live demo link is available, but website is nonfunctioning as I am still working on refactoring.
+								</p>
+								<a href="https://github.com/ssp0929/Auction-Website" target="_blank">
+									<button>Source Code</button>
+								</a>
+								<a href="https://lit-wildwood-80916.herokuapp.com/" target="_blank">
+									<button>Live Demo</button>
+								</a>
+							</figcaption>
+						</figure>
+						<figure>
+							<h3><a href="https://github.com/ssp0929/" target="_blank">More projects available on my Github</a></h3>
+							<figcaption>
+								<button onclick="topFunction()">Return to top</button>
+							</figcaption>
+						</figure>
+				</div>
 			</div>
 		</div>
 	</div>

@@ -1,13 +1,23 @@
 @charset 'UTF-8';
 html {
 	background-color: #181818;
+	min-width: 800px;
 }
 
 body {
 	font-family: Arial, Helvetica, sans-serif;
 	margin: 0px auto;
-	overflow: hidden;
+	overflow-x: hidden;
 	/* hex code for background bottom extend: #b5c6d5 */
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover{
+	color: #CECECE;
 }
 
 h1 {
@@ -46,6 +56,21 @@ hr{
 	margin: 0 auto;
 	margin-left: 20%;
 	margin-right: 20%;
+}
+
+button {
+	border: 2px solid #CECECE;
+	color: #CECECE;
+	background-color: inherit;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin: 5px 5px 5px 5px;
+}
+
+button:hover {
+	background-color: #2F9E6E;
 }
 
 .navContainer {
@@ -88,17 +113,58 @@ hr{
 	margin-top: 0px;
 	margin-left: 20%;
 	margin-right: 20%;
-	padding: 100px 20px 100px 20px;
+	margin-bottom: 0px;
+	padding: 50px 20px 0px 20px;
 }
 
 .contentContainer p, h3 {
 	padding: 2%;
-	text-shadow: 2px 2px 3px black;
 	color: #CECECE;
 	text-align: center;
+}
+
+.contentContainer p {
+	text-align: justify
 }
 
 .contentContainer h3{
 	background: rgba(0, 0, 0, 0.35);
 	border-radius: 5px;
+}
+
+.projectContainer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	color: #CECECE;
+}
+
+.projectContainer figure {
+	border-radius: 5px;
+	background-color: #292929;
+	box-shadow: 0px 2px 5px black;
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+}
+
+.projectContainer figcaption {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.projectContainer h3{
+	background: none;
+}
+
+.projectContainer p {
+	padding-left: 10%;
+	padding-right: 10%;
+	text-align: justify;
+}
+
+.projectContainer img {
+	object-fit: cover;
+	box-shadow: 0px 2px 5px black;
 }
