@@ -10,7 +10,8 @@
 }
 
 html {
-	background-color: #181818;
+	background: url(images/background-media/bg_tile.png) repeat;
+	/*background-color: #181818;*/
 	min-width: 800px;
 }
 
