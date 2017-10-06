@@ -14,8 +14,7 @@
   <link rel="stylesheet" href="css/stylesheet.css"/>
 	<!-- Imported CSS stylesheet above. -->
 
-	<script type="text/javascript" src="js/main.js"></script>
-	<!-- Import JavaScript above. -->
+	<!-- Video from https://www.youtube.com/watch?v=j2LDd7msMTA. Credit to Enigma Fotos -->
 </head>
 
 <body>
@@ -24,9 +23,6 @@
 			<h1>Stephen Park</h1>
 			<h2>University of Texas at Austin • B.S.A. Computer Science • 2017</h2>
 			<ul>
-				<li>
-					<img src="css/images/personalpicture.png" alt="Personal Picture">
-				</li>
 				<li>
 					<a href="https://github.com/ssp0929" target="_blank">
 						<img src="css/images/iconsets/github.png" alt="Github">
@@ -38,7 +34,10 @@
 					</a>
 				</li>
 				<li>
-					<a href="/files/StephenParkResumePage1.pdf" target="_blank">
+					<img src="css/images/personalpicture.png" alt="Personal Picture">
+				</li>
+				<li>
+					<a href="files/StephenParkResumePage1.pdf" target="_blank">
 						<img src="css/images/iconsets/resume.png" alt="Resume">
 					</a>
 				</li>
@@ -51,50 +50,32 @@
 		</div>
 		<div class="contentWrapper">
 			<div class="contentContainer">
-				<h3>About Me</h3>
-				<p>
-					I am a graduate from the University of Texas, highly motivated and enthusiastic when it comes to learning new technologies and languages.
-					Currently seeking full time positions in web or software development.
-				</p>
-			</div>
-		</div>
-		<div class="contentWrapper">
-			<div class="contentContainer">
-				<h3>Projects</h3>
 				<div class="projectContainer">
-					<figure>
-						<h3>Discord Python Bot</h3>
+					<figure class="project-card"><img src="css/images/portfolio-thumbnails/pf-ex1.png" alt="pf-sample-1"/>
 						<figcaption>
-							<p>
-								Basic discord bot written on Python, deployed on Heroku, used on a Discord server I admin.
-								Responds to user commands, and makes a daily API call to update data in memory.
-								Currently deployed on Heroku and is designed to run 24/7.
-							</p>
-							<a href="https://github.com/ssp0929/python-discord-bot" target="_blank">
-								<button>Source Code</button>
-							</a>
+							<h3>CSGO Autoexec Generator</h3>
+							<h5>HTML, CSS, Vue.js, Heroku</h5>
+							<blockquote>
+								<p>
+									Web application that helps users generate an
+									autoexec for Counter Strike: Global Offensive.
+									Deployed on Heroku, front-end skeleton is in place.
+									Base functionality is still in process of being added.
+								</p>
+								<a href="https://github.com/ssp0929/csgo-autoexec-generator" target="_blank">
+									<button>Source Code</button>
+								</a>
+								<a href="https://powerful-plateau-65843.herokuapp.com/#/" target="_blank">
+									<button>Live Demo</button>
+								</a>
+							</blockquote>
 						</figcaption>
 					</figure>
-					<figure>
-						<h3>CSGO Autoexec Generator</h3>
-						<img src="css/images/pf-ex1.png" width="500" height="300" alt="placeholder"/>
+					<figure class="project-card"><img src="css/images/portfolio-thumbnails/pf-ex2.png" alt="pf-sample-2"/>
 						<figcaption>
-							<p>
-								Web application that helps users generate an autoexec for Counter Strike: Global Offensive.
-								Deployed on Heroku, front-end skeleton is in place. Base functionality is still in process of being added.
-							</p>
-							<a href="https://github.com/ssp0929/csgo-autoexec-generator" target="_blank">
-								<button>Source Code</button>
-							</a>
-							<a href="https://powerful-plateau-65843.herokuapp.com/#/" target="_blank">
-								<button>Live Demo</button>
-							</a>
-						</figcaption>
-					</figure>
-					<figure>
 							<h3>Auction Website</h3>
-							<img src="css/images/pf-ex2.png" width="500" height="300" alt="placeholder"/>
-							<figcaption>
+							<h5>HTML, CSS, MySQL, PHP, Heroku</h5>
+							<blockquote>
 								<p>
 									Auction web appliation created for a PHP/SQL class. Utilizes the full LAMP stack.
 									Deployed on Heroku and in the process of refactoring front end to ReactJS and backend to Node/PostgresQL.
@@ -106,15 +87,84 @@
 								<a href="https://lit-wildwood-80916.herokuapp.com/" target="_blank">
 									<button>Live Demo</button>
 								</a>
-							</figcaption>
-						</figure>
-						<h3><a href="https://github.com/ssp0929/" target="_blank">Check my GitHub!</a></h3>
+							</blockquote>
+						</figcaption>
+					</figure>
+					<figure class="project-card"><img src="css/images/portfolio-thumbnails/pf-ex3.png" alt="pf-sample-3"/>
+						<figcaption>
+							<h3>Discord Python Bot</h3>
+							<h5>Python, Heroku</h5>
+							<blockquote>
+								<p>
+									Basic discord bot written with Python, deployed on Heroku,
+									and used on a Discord server I administrate.
+									Responds to user commands, and makes a daily API call to update data in memory.
+									Currently deployed on Heroku and is designed to run 24/7.
+								</p>
+								<a href="https://github.com/ssp0929/python-discord-bot" target="_blank">
+									<button>Source Code</button>
+								</a>
+							</blockquote>
+						</figcaption>
+					</figure>
+					<figure class="project-card"><img src="css/images/portfolio-thumbnails/pf-ex4.png" alt="pf-sample-4"/>
+						<figcaption>
+							<h3>Incremental Game</h3>
+							<h5>HTML, CSS, Angular 4</h5>
+							<blockquote>
+								<p>
+									Incremental/idle game I am working on to learn Angular and get comfortable with one way
+									and two way data binding, as well as passing props up and down the component tree.
+								</p>
+								<a href="https://github.com/ssp0929/Incremental-Game" target="_blank">
+									<button>Source Code</button>
+								</a>
+							</blockquote>
+						</figcaption>
+					</figure>
+					<figure class="project-card"><img src="css/images/portfolio-thumbnails/pf-ex5.png" alt="pf-sample-4"/>
+						<figcaption>
+							<h3>React Calculator</h3>
+							<h5>HTML, CSS, JavaScript, React.js</h5>
+							<blockquote>
+								<p>
+									Simple calculator created to learn React.js.
+								</p>
+								<a href="https://github.com/ssp0929/calculator" target="_blank">
+									<button>Source Code</button>
+								</a>
+							</blockquote>
+						</figcaption>
+					</figure>
+					<figure class="project-card"><img src="css/images/portfolio-thumbnails/pf-ex6.png" alt="pf-sample-4"/>
+						<figcaption>
+							<h3>Pascal Compiler</h3>
+							<h5>C</h5>
+							<blockquote>
+								<p>
+									Project for Compilers class. Compiles a limited subset of the Pascal codebase.
+									Implemented a lexical analyzer, parser, and code generator.
+								</p>
+								<a href="https://github.com/ssp0929/CS375-Compilers" target="_blank">
+									<button>Source Code</button>
+								</a>
+							</blockquote>
+						</figcaption>
+					</figure>
 				</div>
-				<div align="center"><button onclick="topFunction()">Return to top</button></div>
+				<div class="footer-buttons">
+					<a href="https://github.com/ssp0929" target="_blank">
+						<button>Check my Github</button>
+					</a>
+					<button onclick="topFunction()">Return to top</button>
 				</div>
 			</div>
 		</div>
 	</div>
+	<link rel="stylesheet" href="css/stylesheet.css"/>
+	<!-- Imported CSS stylesheet above. -->
+	<script type="text/javascript" src="js/bideo.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<!-- Import JavaScript above. -->
 </body>
-
 </html>
