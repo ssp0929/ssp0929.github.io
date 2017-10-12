@@ -87,7 +87,7 @@ button:hover {
 .navContainer ul li {
 	display: inline-block;
 	padding: 20px;
-	opacity: .5;
+	opacity: .7;
 	-webkit-transition: opacity .5s;
 	-moz-transition: opacity .5s;
 	-ms-transition: opacity .5s;
@@ -96,7 +96,7 @@ button:hover {
 }
 
 .navContainer ul li:hover {
-	opacity: .7;
+	opacity: 1;
 }
 
 .contentContainer {
