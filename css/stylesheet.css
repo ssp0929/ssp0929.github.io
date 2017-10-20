@@ -59,6 +59,10 @@ button:hover {
 	background-color: #2F9E6E;
 }
 
+button:active {
+	outline: none;
+}
+
 .navContainer {
 	background-color: rgba(0, 0, 0, 0.5);
 	width: 100%;
@@ -127,6 +131,12 @@ button:hover {
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
+
+.footer-buttons button {
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
 /* css cards */
 .project-card {
   font-family: 'Lato', Arial, sans-serif;
