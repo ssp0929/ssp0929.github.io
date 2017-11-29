@@ -41,6 +41,18 @@ h2 {
 	color: #a8b5c2;
 }
 
+h2.smaller a {
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	-ms-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+}
+
+h2.smaller a:hover {
+	color: #dbdbdb;
+}
+
 h3 {
 	color: #5ACA9F;
 }
