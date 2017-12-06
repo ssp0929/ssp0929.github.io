@@ -234,7 +234,7 @@ button:active {
 	max-width: 800px;
 	background-color: #eee;
 	border-radius: 5px;
-	box-shadow: 2px 2px 5px #ccc;
+	box-shadow: 2px 2px 5px #333;
 }
 
 .resumeWrapper h1, .resumeWrapper h3 {
