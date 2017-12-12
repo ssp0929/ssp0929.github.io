@@ -48,44 +48,39 @@
           <div class="resumeMidBlock">
             <div class="resumeEducation">
               <h1>EDUCATION</h1>
-              <h2>The University of Texas at Austin</h2>
-              <h2>Major Relevant Coursework</h2>
+              <h2>
+                The University of Texas at Austin<br>
+                B.S.A. Computer Science<br>
+                Business Foundations Program (BFP) Certificate<br>
+                2013 - 2017 | 3.10 GPA
+              </h2>
+              <h2>Relevant Coursework</h2>
               <p>
-                Introduction to Programming, Data Structures,
+                Data Structures,
                 Discrete Mathematics, Linear Algebra,
-                Introduction to Probability and Statistics,
+                Probability &amp; Statistics,
                 Computer Architecture, Operating Systems,
-                PHP and SQL, Compilers, Computer Networks,
-                Algorithms and Complexity, Intro to Wireless Networks,
+                PHP &amp; SQL, Compilers, Computer Networks,
+                Algorithms &amp; Complexity, Wireless Networks,
                 Computational Brain
-              </p>
-              <h2>Business Foundations Program (BFP) Coursework</h2>
-              <p>
-                Foundations of Accounting<br>
-                Foundations of Finance<br>
-                Foundations of IT Management<br>
-                Foundations of Business Law and Ethics<br>
-                Foundations of Management and Organization Behavior<br>
-                Foundations of Marketing<br>
               </p>
             </div>
             <div class="resumeSkills">
               <h1>SKILLS</h1>
-              <h2>Proficient</h2>
-              <p>Java, JavaScript (ES6), C</p>
-              <h2>Experienced</h2>
+              <h2>Languages</h2>
               <p>
-                HTML5, CSS3, C++, Python,
-                Node.js, React, Express,
-                PostgresQL, Git, Bash, Axios
+                JavaScript (ES6), Python, C++,
+                HTML5, CSS3, SQL, JQuery, PHP, Bash
               </p>
-              <h2>Used</h2>
-              <p>PHP, Angular (2+), MySQL, Vue</p>
+              <h2>Frameworks / Libraries</h2>
+              <p>
+                React, Node.js, Express,
+                Vue, Angular (2+), Axios, D3.js
+              </p>
               <h2>Technologies</h2>
               <p>
-                Git, Linux, Windows, Heroku,
-                Google Cloud Platform, AWS,
-                Webpack, Babel, npm, yarn, pip
+                Git, Linux, Windows,
+                Heroku, AWS, PostgresQL, MySQL
               </p>
             </div>
           </div>
@@ -95,8 +90,15 @@
             <p>
               Class project aimed to simulate a real client website design workflow,
               with simulated client interaction and feedback in between sprints.
-              Front end was built using HTML and CSS. Back end was built using MySQL and PHP.
+              Front end was built using HTML and CSS.
+              Back end was built using MySQL and PHP.
               Website was hosted on a university Apache server.
+              Users were able to create accounts, bid on auctions, create auctions,
+              and a payment model was mocked up in place.
+              Inputs were santized, HTTPS was enforced,
+              and security measures were implemented against XSS vulnerabilities, SQL injections,
+              and malicious binary image data execution.
+              Website is currently deployed on Heroku.
             </p>
             <h2>
               React Auction Web Application
@@ -104,15 +106,25 @@
             </h2>
             <p>
               Refactored my LAMP stack auction website using a more modern tech stack
-              and designed it to operate as a single page application.
+              and designed to operate as a single page application.
               React was the framework used for the front end,
-              Axios was used to create a middleware service to handle all API/HTTP requests in the web app.
+              Axios used in middleware to make HTTP requests from the front-end client
+              to the front-facing API created using Postgrest to allow user interaction with the back-end database.
               Node/Express/PostgresQL were used to build the back end. Website is currently deployed on Heroku.
+            </p>
+            <h2>Incremental Game (HTML, CSS, JavaScript, Angular(2+), Node.js, Express)</h2>
+            <p>
+              JavaScript-based game created to be played in browser
+              based on the same mechanics as the currently trending “idle” games
+              found in web apps and mobile apps.
+              Instead of opting for traditional back-end storage,
+              I have decided to use localStorage to allow for persistent
+              data storage without significant overhead.
             </p>
             <h2>Pascal Compiler (C)</h2>
             <p>
               Project for Compilers class.
-              Compiles a limited subset of the Pascal codebase.
+              Compiles a subset of the Pascal codebase.
               Implemented part of a lexical analyzer, parser, and code generator.
               Several tools were used in the process including: YACC/Bison and Lex.
             </p>
@@ -122,12 +134,11 @@
               The bot periodically makes an API call to a REST API,
               parses the JSON data, and allows users to make queries on that data.
               Additionally, the bot also has other commands that users can call.
-              The bot is hosted on Heroku and is designed to be running 24/7,
-              with periodic restarts every 24 hours.
+              The bot is hosted on my RaspberryPi.
             </p>
             <br>
             <p>
-              Please check my github for other projects.
+              Please check my github and codepen for other projects.
             </p>
           </div>
         </div>
