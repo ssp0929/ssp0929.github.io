@@ -230,7 +230,7 @@ button:active {
 	display: flex;
 	flex-flow: nowrap column;
 	margin: auto;
-	padding: 5%;
+	padding: 3%;
 	max-width: 800px;
 	background-color: #eee;
 	border-radius: 5px;
