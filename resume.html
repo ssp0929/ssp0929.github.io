@@ -112,29 +112,28 @@
               to the front-facing API created using Postgrest to allow user interaction with the back-end database.
               Node/Express/PostgresQL were used to build the back end. Website is currently deployed on Heroku.
             </p>
-            <h2>Incremental Game (HTML, CSS, JavaScript, Angular(2+), Node.js, Express)</h2>
+            <h2>Cryptocurrency Auto-Sell / Auto-Withdraw Script (Python)</h2>
             <p>
-              JavaScript-based game created to be played in browser
-              based on the same mechanics as the currently trending “idle” games
-              found in web apps and mobile apps.
-              Instead of opting for traditional back-end storage,
-              I have decided to use localStorage to allow for persistent
-              data storage without significant overhead.
+              Utilizes an open-source cryptocurrency python wrapper.
+              The script periodically checks a user’s balance on the cryptocurrency exchange Cryptopia
+              and creates BTC market rate sell orders on the marketplace
+              and withdraws to wallet based on user-configured thresholds.
             </p>
-            <h2>Pascal Compiler (C)</h2>
+            <h2>Cryptocurrency Trend Tracker (HTML, CSS, JavaScript, Node.js, Express, Python)</h2>
             <p>
-              Project for Compilers class.
-              Compiles a subset of the Pascal codebase.
-              Implemented part of a lexical analyzer, parser, and code generator.
-              Several tools were used in the process including: YACC/Bison and Lex.
+              Series of scripts that monitors cryptocurrency mentions on Reddit
+              and Twitter based on continually refined heuristics, as well as the average
+              exchange price of hand-curated cryptocurrencies from coinmarketcap.com.
+              The front end will continually monitor the script data and after a length of time
+              we will run a general time series analysis and use the data to build an
+              autonomous cryptocurrency trading model.
             </p>
             <h2>Discord Bot (Python)</h2>
             <p>
               Created a python-based bot that interacts with users in a discord group.
-              The bot periodically makes an API call to a REST API,
-              parses the JSON data, and allows users to make queries on that data.
+              Bot has a set of commands and a flat file database to draw quotes from and add quotes to.
               Additionally, the bot also has other commands that users can call.
-              The bot is hosted on my RaspberryPi.
+              The bot is hosted on my RaspberryPi and runs in the background 24/7 with nohup.
             </p>
             <br>
             <p>
