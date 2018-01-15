@@ -4,198 +4,67 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title>Stephen Park | Personal Webpage</title>
+	<title>Stephen Park</title>
 	<meta name="description" content="Personal webpage for myself">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link rel="icon" type="image/png" href="css/images/favicon.png" />
+	<link rel="icon" type="image/png" href="assets/images/favicon.png" />
 	<!-- Favicon above. -->
 	<link rel="stylesheet" href="css/stylesheet.css"/>
 	<!-- Imported CSS stylesheet above. -->
-	<script type="text/javascript" src="js/main.js"></script>
-	<!-- Import JavaScript above. -->
 </head>
 
 <body>
 	<div class="siteWrapper">
-		<div class="navContainer">
-			<h1>Stephen Park</h1>
-			<h2>University of Texas at Austin • B.S.A. Computer Science • 2017</h2>
-			<ul>
-				<li>
-					<img src="css/images/personalpicture.png" alt="Personal Picture">
-				</li>
-			</ul>
-			<h2 class="smaller">
-				<a href="https://www.linkedin.com/in/stephenspark" target="_blank">LinkedIn</a>
-				•
+		<div class="navBar">
+			<div class="navBar-left">
+				<a href="index.html"><h1>Stephen Park</h1></a>
+			</div>
+			<div class="navBar-right">
 				<a href="resume.html">Resume</a>
-				•
-				<a href="mailto:stephenspark@utexas.edu" target="_blank">Email</a>
-			</h2>
-
-		</div>
-		<div class="contentWrapper">
-			<div class="contentContainer">
-				<div class="projectContainer">
-					<figure class="project-card"><img src="css/images/portfolio-thumbnails/pf-ex1.png" alt="pf-sample-1"/>
-						<figcaption>
-							<h3>CSGO Autoexec Cheatsheet</h3>
-							<h5>HTML, CSS, Vue, Heroku</h5>
-							<blockquote>
-								<p>
-									Web application that helps users generate an
-									autoexec for Counter Strike: Global Offensive.
-									Deployed on Heroku, front-end skeleton is in place.
-									Base functionality is still in process of being added.
-								</p>
-								<a href="https://github.com/ssp0929/csgo-autoexec-cheatsheet" target="_blank">
-									<button>Source Code</button>
-								</a>
-								<a href="https://powerful-plateau-65843.herokuapp.com/#/" target="_blank">
-									<button>Live Demo</button>
-								</a>
-							</blockquote>
-						</figcaption>
-					</figure>
-					<figure class="project-card"><img src="css/images/portfolio-thumbnails/pf-ex2.png" alt="pf-sample-2"/>
-						<figcaption>
-							<h3>Auction Website</h3>
-							<h5>HTML, CSS, MySQL, PHP, Heroku</h5>
-							<blockquote>
-								<p>
-									Auction web appliation created for a PHP/SQL class. Utilizes the full LAMP stack.
-									Deployed on Heroku and in the process of refactoring front end to ReactJS and backend to Node/PostgresQL.
-									Live demo link is available, but website is nonfunctioning as I am still working on refactoring.
-								</p>
-								<a href="https://github.com/ssp0929/Auction-Website" target="_blank">
-									<button>Source Code</button>
-								</a>
-								<a href="https://lit-wildwood-80916.herokuapp.com/" target="_blank">
-									<button>Live Demo</button>
-								</a>
-							</blockquote>
-						</figcaption>
-					</figure>
-					<figure class="project-card"><img src="css/images/portfolio-thumbnails/pf-ex3.png" alt="pf-sample-3"/>
-						<figcaption>
-							<h3>Discord Python Bot</h3>
-							<h5>Python, Raspberry Pi</h5>
-							<blockquote>
-								<p>
-									Basic discord bot written with Python, deployed on my personal Raspberry Pi,
-									and used on a Discord server I administrate.
-									Responds to user commands, still expanding base functionality.
-									Bot runs on a @reboot cronjob on my Pi and is designed to run 24/7.
-								</p>
-								<a href="https://github.com/ssp0929/python-discord-bot" target="_blank">
-									<button>Source Code</button>
-								</a>
-							</blockquote>
-						</figcaption>
-					</figure>
-					<figure class="project-card"><img src="css/images/portfolio-thumbnails/pf-ex4.png" alt="pf-sample-4"/>
-						<figcaption>
-							<h3>Incremental Game</h3>
-							<h5>HTML, CSS, Angular</h5>
-							<blockquote>
-								<p>
-									Incremental/idle game I am working on to learn Angular and get comfortable with one way
-									and two way data binding, as well as passing props up and down the component tree.
-								</p>
-								<a href="https://github.com/ssp0929/Incremental-Game" target="_blank">
-									<button>Source Code</button>
-								</a>
-							</blockquote>
-						</figcaption>
-					</figure>
-					<figure class="project-card"><img src="css/images/portfolio-thumbnails/pf-ex5.png" alt="pf-sample-4"/>
-						<figcaption>
-							<h3>React Auction Website</h3>
-							<h5>HTML, CSS, JavaScript, React, Axios, Postgrest, Node.js, PostgresQL</h5>
-							<blockquote>
-								<p>
-									Auction website refactored and redesigned with React/Node.js/PostgresQL and hosted on Heroku.
-									Postgrest was used to generate a REST API for interaction with the backend, and Axios was used for HTTP requests.
-								</p>
-								<a href="https://github.com/ssp0929/react-auction-website" target="_blank">
-									<button>Source Code</button>
-								</a>
-								<a href="https://react-auction-website.herokuapp.com/" target="_blank">
-									<button>Live Demo</button>
-								</a>
-							</blockquote>
-						</figcaption>
-					</figure>
-					<figure class="project-card"><img src="css/images/portfolio-thumbnails/pf-ex6.png" alt="pf-sample-4"/>
-						<figcaption>
-							<h3>Pascal Compiler</h3>
-							<h5>C</h5>
-							<blockquote>
-								<p>
-									Project for Compilers class. Compiles a subset of the Pascal codebase.
-									Implemented a lexical analyzer, parser, and code generator.
-								</p>
-								<a href="https://github.com/ssp0929/CS375-Compilers" target="_blank">
-									<button>Source Code</button>
-								</a>
-							</blockquote>
-						</figcaption>
-					</figure>
-					<figure class="project-card"><img src="css/images/portfolio-thumbnails/pf-ex7.png" alt="pf-sample-4"/>
-						<figcaption>
-							<h3>RSS Feed Reader</h3>
-							<h5>HTML, CSS, JavaScript, JQuery</h5>
-							<blockquote>
-								<p>
-									Parses XML data from an RSS feed for a forum I frequent and displays the data in a readable form.
-								</p>
-								<a href="https://github.com/ssp0929/cf-rss-feed" target="_blank">
-									<button>Source Code</button>
-								</a>
-							</blockquote>
-						</figcaption>
-					</figure>
-					<figure class="project-card"><img src="css/images/portfolio-thumbnails/pf-ex8.png" alt="pf-sample-4"/>
-						<figcaption>
-							<h3>Raspberry Pi Status Twitterbot</h3>
-							<h5>Python</h5>
-							<blockquote>
-								<p>
-									Grabs system data from my Raspberry Pi unit and tweets via cronjob basic status metrics hourly.
-								</p>
-								<a href="https://github.com/ssp0929/twitterbot" target="_blank">
-									<button>Source Code</button>
-								</a>
-							</blockquote>
-						</figcaption>
-					</figure>
-					<figure class="project-card"><img src="css/images/portfolio-thumbnails/pf-ex9.png" alt="pf-sample-4"/>
-						<figcaption>
-							<h3>Headless Chrome Screenshot Script</h3>
-							<h5>Javascript, Puppeteer</h5>
-							<blockquote>
-								<p>
-									Uses puppeteer to run headless chrome to traverse to a given URL and take and save a screenshot.
-								</p>
-								<a href="https://github.com/ssp0929/screenshot-script" target="_blank">
-									<button>Source Code</button>
-								</a>
-							</blockquote>
-						</figcaption>
-					</figure>
-				</div>
-				<div class="footer-buttons">
-					<a href="https://codepen.io/ssp0929/" target="_blank">
-						<button>Check my Codepen</button>
-					</a>
-					<a href="https://github.com/ssp0929" target="_blank">
-						<button>Check my Github</button>
-					</a>
-					<button onclick="topFunction()">Return to top</button>
-				</div>
+				<a href="projects.html">Projects</a>
 			</div>
 		</div>
+		<div class="headerContainer">
+			<h1>Software Engineer, Web Developer</h1>
+		</div>
+		<div class="contentContainer">
+			<h1>Who Am I?</h1>
+			<p>I'm a software developer. I enjoy building scalable, efficient systems to solve complex problems.</p>
+			<p>I'm a web developer. I enjoy deploying web apps using the latest languages and frameworks.</p>
+			<p>I'm a learner. I enjoy learning about new technologies, languages, and follow tech news daily.</p>
+			<p>I'm a person. I enjoy sports, cooking, graphic design, and video games.</p>
+			<br><br><br>
+			<h1>What Have I Worked On?</h1>
+			<p>
+				I've worked on a full stack web application built on top of the LAMP stack.
+				Then, I refactored it using a React front-end, and a Node.js/Express.js/PostgreSQL backend and am currently hosting it on Heroku.
+			</p>
+			<br>
+			<p>
+				After learning a little Python and getting familiar with working with various APIs,
+				I created an interactive bot for a Discord server that responds to user commands in real-time,
+				a scraper that scrapes data from Reddit, and a scraper that scrapes RSS feeds.
+			</p>
+			<br>
+			<p>
+				Then I started getting intrigued by cryptocurrencies.
+				Per a client request, I created a script that can place market sell orders and auto withdraw orders on the cryptocurrency exchange Cryptopia.
+				I helped another Discord server deploy a bot that pulls data from coinmarketcap.com's API in real time to track cryptocurrency metrics.
+			</p>
+			<br>
+			<p>
+				Currently, I'm working on a cryptocurrency trend tracker, to scrape and parse raw data from social media channels
+				to run some analysis over time to find useful correlations and patterns to make auto-trading decisions.
+			</p>
+		</div>
+	</div>
+	<div class="footerBar">
+		<a href="https://github.com/ssp0929">Check my Github</a>
+		|
+		<a href="https://codepen.io/ssp0929">Check my Codepen</a>
+		|
+		<a href="mailto:ssp0929@gmail.com">Email me</a>
 	</div>
 </body>
 </html>

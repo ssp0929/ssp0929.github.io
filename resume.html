@@ -8,7 +8,7 @@
 	<meta name="description" content="Personal webpage for myself">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link rel="icon" type="image/png" href="css/images/favicon.png" />
+	<link rel="icon" type="image/png" href="assets/images/favicon.png" />
 	<!-- Favicon above. -->
 	<link rel="stylesheet" href="css/stylesheet.css"/>
 	<!-- Imported CSS stylesheet above. -->
@@ -17,141 +17,137 @@
 </head>
 
 <body>
-	<div class="siteWrapper">
-		<div class="navContainer">
-			<ul>
-				<li>
-					<img src="css/images/personalpicture.png" alt="Personal Picture">
-				</li>
-			</ul>
-		</div>
-		<div class="contentWrapper">
-			<div class="contentContainer">
-        <div class="footer-buttons">
-          <a href="files/StephenParkResume.pdf" target="_blank">
-            <button>PDF version</button>
-          </a>
-          <a href="index.html">
-            <button>Go back</button>
-          </a>
+    <div class="siteWrapper">
+        <div class="navBar">
+            <div class="navBar-left">
+                <a href="index.html"><h1>Stephen Park</h1></a>
+            </div>
+            <div class="navBar-right">
+                <a href="resume.html">Resume</a>
+                <a href="projects.html">Projects</a>
+            </div>
+        </div>
+        <div class="headerContainer">
+            <h1>My Resume</h1>
         </div>
         <div class="resumeWrapper">
-          <div class="resumeHeader">
-            <div class="resumeHeaderLeft">
-              <h1>STEPHEN PARK</h1>
-              <h3>BSA COMPUTER SCIENCE | 2017</h3>
+            <div class="resumeHeader">
+                <div class="resumeHeaderLeft">
+                    <h1>STEPHEN PARK</h1>
+                    <h3>BSA COMPUTER SCIENCE | 2017</h3>
+                </div>
+                <div class="resumeHeaderRight">
+                </div>
             </div>
-            <div class="resumeHeaderRight">
+            <hr>
+            <div class="resumeMidBlock">
+                <div class="resumeEducation">
+                    <h1>EDUCATION</h1>
+                    <h2>
+                    The University of Texas at Austin<br>
+                    B.S.A. Computer Science<br>
+                    Business Foundations Program (BFP) Certificate<br>
+                    2013 - 2017 | 3.10 GPA
+                    </h2>
+                    <h2>Relevant Coursework</h2>
+                    <p>
+                    Data Structures,
+                    Discrete Mathematics, Linear Algebra,
+                    Probability &amp; Statistics,
+                    Computer Architecture, Operating Systems,
+                    PHP &amp; SQL, Compilers, Computer Networks,
+                    Algorithms &amp; Complexity, Wireless Networks,
+                    Computational Brain
+                    </p>
+                </div>
+                <div class="resumeSkills">
+                    <h1>SKILLS</h1>
+                    <h2>Languages</h2>
+                    <p>
+                    JavaScript (ES6), Python, C++,
+                    HTML5, CSS3, SQL, JQuery, PHP, Bash
+                    </p>
+                    <h2>Frameworks / Libraries</h2>
+                    <p>
+                    React, Node.js, Express,
+                    Vue, Angular (2+), Axios, D3.js
+                    </p>
+                    <h2>Technologies</h2>
+                    <p>
+                    Git, Linux, Windows,
+                    Heroku, AWS, PostgresQL, MySQL
+                    </p>
+                </div>
             </div>
-          </div>
-          <hr>
-          <div class="resumeMidBlock">
-            <div class="resumeEducation">
-              <h1>EDUCATION</h1>
-              <h2>
-                The University of Texas at Austin<br>
-                B.S.A. Computer Science<br>
-                Business Foundations Program (BFP) Certificate<br>
-                2013 - 2017 | 3.10 GPA
-              </h2>
-              <h2>Relevant Coursework</h2>
-              <p>
-                Data Structures,
-                Discrete Mathematics, Linear Algebra,
-                Probability &amp; Statistics,
-                Computer Architecture, Operating Systems,
-                PHP &amp; SQL, Compilers, Computer Networks,
-                Algorithms &amp; Complexity, Wireless Networks,
-                Computational Brain
-              </p>
-            </div>
-            <div class="resumeSkills">
-              <h1>SKILLS</h1>
-              <h2>Languages</h2>
-              <p>
-                JavaScript (ES6), Python, C++,
-                HTML5, CSS3, SQL, JQuery, PHP, Bash
-              </p>
-              <h2>Frameworks / Libraries</h2>
-              <p>
-                React, Node.js, Express,
-                Vue, Angular (2+), Axios, D3.js
-              </p>
-              <h2>Technologies</h2>
-              <p>
-                Git, Linux, Windows,
-                Heroku, AWS, PostgresQL, MySQL
-              </p>
-            </div>
-          </div>
-          <hr>
-          <div class="resumeProjects">
+            <hr>
+            <div class="resumeProjects">
             <h2>Auction Website (HTML, CSS, PHP, MySQL)</h2>
             <p>
-              Class project aimed to simulate a real client website design workflow,
-              with simulated client interaction and feedback in between sprints.
-              Front end was built using HTML and CSS.
-              Back end was built using MySQL and PHP.
-              Website was hosted on a university Apache server.
-              Users were able to create accounts, bid on auctions, create auctions,
-              and a payment model was mocked up in place.
-              Inputs were santized, HTTPS was enforced,
-              and security measures were implemented against XSS vulnerabilities, SQL injections,
-              and malicious binary image data execution.
-              Website is currently deployed on Heroku.
+                Class project aimed to simulate a real client website design workflow,
+                with simulated client interaction and feedback in between sprints.
+                Front end was built using HTML and CSS.
+                Back end was built using MySQL and PHP.
+                Website was hosted on a university Apache server.
+                Users were able to create accounts, bid on auctions, create auctions,
+                and a payment model was mocked up in place.
+                Inputs were santized, HTTPS was enforced,
+                and security measures were implemented against XSS vulnerabilities, SQL injections,
+                and malicious binary image data execution.
+                Website is currently deployed on Heroku.
             </p>
             <h2>
-              React Auction Web Application
-              (HTML, CSS, JavaScript, React, Node.js, Axios, Express, PostgresQL)
+                React Auction Web Application
+                (HTML, CSS, JavaScript, React, Node.js, Axios, Express, PostgresQL)
             </h2>
             <p>
-              Refactored my LAMP stack auction website using a more modern tech stack
-              and designed to operate as a single page application.
-              React was the framework used for the front end,
-              Axios used in middleware to make HTTP requests from the front-end client
-              to the front-facing API created using Postgrest to allow user interaction with the back-end database.
-              Node/Express/PostgresQL were used to build the back end. Website is currently deployed on Heroku.
+                Refactored my LAMP stack auction website using a more modern tech stack
+                and designed to operate as a single page application.
+                React was the framework used for the front end,
+                Axios used in middleware to make HTTP requests from the front-end client
+                to the front-facing API created using Postgrest to allow user interaction with the back-end database.
+                Node/Express/PostgresQL were used to build the back end. Website is currently deployed on Heroku.
             </p>
             <h2>Cryptocurrency Auto-Sell / Auto-Withdraw Script (Python)</h2>
             <p>
-              Utilizes an open-source cryptocurrency python wrapper.
-              The script periodically checks a user’s balance on the cryptocurrency exchange Cryptopia
-              and creates BTC market rate sell orders on the marketplace
-              and withdraws to wallet based on user-configured thresholds.
+                Utilizes an open-source cryptocurrency python wrapper.
+                The script periodically checks a user’s balance on the cryptocurrency exchange Cryptopia
+                and creates BTC market rate sell orders on the marketplace
+                and withdraws to wallet based on user-configured thresholds.
             </p>
             <h2>Cryptocurrency Trend Tracker (HTML, CSS, JavaScript, Node.js, Express, Python)</h2>
             <p>
-              Series of scripts that monitors cryptocurrency mentions on Reddit
-              and Twitter based on continually refined heuristics, as well as the average
-              exchange price of hand-curated cryptocurrencies from coinmarketcap.com.
-              The front end will continually monitor the script data and after a length of time
-              we will run a general time series analysis and use the data to build an
-              autonomous cryptocurrency trading model.
+                Series of scripts that monitors cryptocurrency mentions on Reddit
+                and Twitter based on continually refined heuristics, as well as the average
+                exchange price of hand-curated cryptocurrencies from coinmarketcap.com.
+                The front end will continually monitor the script data and after a length of time
+                we will run a general time series analysis and use the data to build an
+                autonomous cryptocurrency trading model.
             </p>
             <h2>Discord Bot (Python)</h2>
             <p>
-              Created a python-based bot that interacts with users in a discord group.
-              Bot has a set of commands and a flat file database to draw quotes from and add quotes to.
-              Additionally, the bot also has other commands that users can call.
-              The bot is hosted on my RaspberryPi and runs in the background 24/7 with nohup.
+                Created a python-based bot that interacts with users in a discord group.
+                Bot has a set of commands and a flat file database to draw quotes from and add quotes to.
+                Additionally, the bot also has other commands that users can call.
+                The bot is hosted on my RaspberryPi and runs in the background 24/7 with nohup.
             </p>
             <br>
             <p>
-              Please check my github and codepen for other projects.
+                Please check my github and codepen for other projects.
             </p>
-          </div>
+            </div>
         </div>
         <div class="footer-buttons">
-          <a href="https://codepen.io/ssp0929/" target="_blank">
-            <button>Check my Codepen</button>
-          </a>
-          <a href="https://github.com/ssp0929" target="_blank">
-            <button>Check my Github</button>
-          </a>
-          <button onclick="topFunction()">Return to top</button>
+            <a href="assets/files/StephenParkResume.pdf" target="_blank">
+                <button>PDF version</button>
+            </a>
         </div>
-			</div>
-		</div>
-	</div>
+    </div>
+    <div class="footerBar">
+        <a href="https://github.com/ssp0929">Check my Github</a>
+        |
+        <a href="https://codepen.io/ssp0929">Check my Codepen</a>
+        |
+        <a href="mailto:ssp0929@gmail.com">Email me</a>
+    </div>
 </body>
 </html>

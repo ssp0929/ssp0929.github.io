@@ -1,0 +1,215 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Stephen Park | Personal Webpage</title>
+	<meta name="description" content="Personal webpage for myself">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="icon" type="image/png" href="assets/images/favicon.png" />
+	<!-- Favicon above. -->
+	<link rel="stylesheet" href="css/stylesheet.css"/>
+	<!-- Imported CSS stylesheet above. -->
+	<script type="text/javascript" src="js/main.js"></script>
+	<!-- Import JavaScript above. -->
+</head>
+
+<body>
+    <div class="siteWrapper">
+        <div class="navBar">
+            <div class="navBar-left">
+                <a href="index.html"><h1>Stephen Park</h1></a>
+            </div>
+            <div class="navBar-right">
+                <a href="resume.html">Resume</a>
+                <a href="projects.html">Projects</a>
+            </div>
+        </div>
+        <div class="headerContainer">
+            <h1>My Projects</h1>
+        </div>
+        <div class="projectsContainer">
+            <div class="projectItem">
+                <div class="projectItem-top">
+                    <h2>Personal Website (Python)</h2>
+                    <br>
+                    <p>
+                        This website. Built from scratch using HTML and CSS. Static website hosted on Github Pages.
+                    </p>
+                </div>
+                <div class="projectItem-bottom">
+                    <a href="https://github.com/ssp0929/ssp0929.github.io" target="_blank">
+                        <button>Source Code</button>
+                    </a>
+                    <a href="https://www.stephensp.com/" target="_blank">
+                        <button>Live Demo</button>
+                    </a>
+                </div>
+            </div>
+            <div class="projectItem">
+                <div class="projectItem-top">
+                    <h2>Discord Bot (Python)</h2>
+                    <br>
+                    <p>
+                        I helped another Discord server deploy a bot that pulls data from coinmarketcap.com's API in real time to track cryptocurrency metrics.
+                    </p>
+                </div>
+                <div class="projectItem-bottom">
+                    <a href="https://github.com/ssp0929/discordbot" target="_blank">
+                        <button>Source Code</button>
+                    </a>
+                </div>
+            </div>
+            <div class="projectItem">
+                <div class="projectItem-top">
+                    <h2>Cryptocurrency Trend Tracker (Python)</h2>
+                    <br>
+                    <p>
+                        Series of scripts that monitors cryptocurrency mentions on Reddit and Twitter based on continually refined heuristics, as well as the average exchange price of hand-curated cryptocurrencies from coinmarketcap.com. The front end will continually monitor the script data and after a length of time we will run a general time series analysis and use the data to build an autonomous cryptocurrency trading model.
+                    </p>
+                </div>
+                <div class="projectItem-bottom">
+                    <a href="https://github.com/ssp0929/crypto-trend-tracker" target="_blank">
+                        <button>Source Code</button>
+                    </a>
+                </div>
+            </div>
+            <div class="projectItem">
+                <div class="projectItem-top">
+                    <h2>Cryptopia Auto Sell / Auto Withdraw Script (HTML, CSS, JavaScript, React, Node.js, Express)</h2>
+                    <br>
+                    <p>
+                        Utilizes an open-source cryptocurrency python wrapper. The script periodically checks a user’s balance on the cryptocurrency exchange Cryptopia and creates BTC market rate sell orders on the marketplace and withdraws to wallet based on user-configured thresholds.
+                    </p>
+                </div>
+                <div class="projectItem-bottom">
+                    <a href="https://github.com/ssp0929/cryptopia-ltf-script" target="_blank">
+                        <button>Source Code</button>
+                    </a>
+                </div>
+            </div>
+            <div class="projectItem">
+                <div class="projectItem-top">
+                    <h2>Refactored Auction Web App (HTML, CSS, JavaScript, React, Node.js, Express)</h2>
+                    <br>
+                    <p>
+                        Refactored my LAMP stack auction website using a more modern tech stack and designed to operate as a single page application. React was the framework used for the front end, Axios used in middleware to make HTTP requests from the front-end client to the front-facing API created using Postgrest to allow user interaction with the back-end database. Node/Express/PostgresQL were used to build the back end. Website is currently deployed on Heroku.
+                    </p>
+                </div>
+                <div class="projectItem-bottom">
+                    <a href="https://github.com/ssp0929/react-auction-website" target="_blank">
+                        <button>Source Code</button>
+                    </a>
+                    <a href="https://react-auction-website.herokuapp.com/" target="_blank">
+                        <button>Live Demo</button>
+                    </a>
+                </div>
+            </div>
+            <div class="projectItem">
+                <div class="projectItem-top">
+                    <h2>CSGO Autoexec Cheatsheet (HTML, CSS, JavaScript, Vue, Node.js, Express)</h2>
+                    <br>
+                    <p>
+                        Webapp that helps users generate an autoexec for Counter Strike: Global Offensive.
+                    </p>
+                </div>
+                <div class="projectItem-bottom">
+                    <a href="https://github.com/ssp0929/screenshot-script" target="_blank">
+                        <button>Source Code</button>
+                    </a>
+                    <a href="https://powerful-plateau-65843.herokuapp.com/#/" target="_blank">
+                        <button>Live Demo</button>
+                    </a>
+                </div>
+            </div>
+            <div class="projectItem">
+                <div class="projectItem-top">
+                    <h2>Screenshot Script (JavaScript, Node.js)</h2>
+                    <br>
+                    <p>
+                        Runs headless chrome when initiated and with given URL and file name, takes screenshot and saves it locally.
+                    </p>
+                </div>
+                <div class="projectItem-bottom">
+                    <a href="https://github.com/ssp0929/screenshot-script" target="_blank">
+                        <button>Source Code</button>
+                    </a>
+                </div>
+            </div>
+            <div class="projectItem">
+                <div class="projectItem-top">
+                    <h2>Auction Website (HTML, CSS, PHP, MySQL)</h2>
+                    <br>
+                    <p>
+                        Class project aimed to simulate a real client website design workflow, with simulated client interaction and feedback in between sprints. Front end was built using HTML and CSS. Back end was built using MySQL and PHP. Website was hosted on a university Apache server. Users were able to create accounts, bid on auctions, create auctions, and a payment model was mocked up in place. Inputs were santized, HTTPS was enforced, and security measures were implemented against XSS vulnerabilities, SQL injections, and malicious binary image data execution. Website is currently deployed on Heroku.
+                    </p>
+                </div>
+                <div class="projectItem-bottom">
+                    <a href="https://github.com/ssp0929/Auction-Website" target="_blank">
+                        <button>Source Code</button>
+                    </a>
+                    <a href="https://lit-wildwood-80916.herokuapp.com/index.php" target="_blank">
+                        <button>Live Demo</button>
+                    </a>
+                </div>
+            </div>
+            <div class="projectItem">
+                <div class="projectItem-top">
+                    <h2>Twitter Bot (Python)</h2>
+                    <br>
+                    <p>
+                        TwitterBot connects to the twitter API to send a tweet with Raspberry Pi status information. TwitterBotText connects to the twitter API to send a tweet with customized text + date/time status information. Startup bash script runs on a @reboot cronjob to tweet out information on any scheduled or unscheduled reboot.
+                    </p>
+                </div>
+                <div class="projectItem-bottom">
+                    <a href="https://github.com/ssp0929/twitterbot" target="_blank">
+                        <button>Source Code</button>
+                    </a>
+                    <a href="https://twitter.com/stephen_rpi" target="_blank">
+                        <button>Live Demo</button>
+                    </a>
+                </div>
+            </div>
+            <div class="projectItem">
+                <div class="projectItem-top">
+                    <h2>RSS Feed Scraper (HTML, CSS, JQuery)</h2>
+                    <br>
+                    <p>
+                        Parses a forum's RSS feed and its XML into meaningful and readable content.
+                    </p>
+                </div>
+                <div class="projectItem-bottom">
+                    <a href="https://github.com/ssp0929/cf-rss-feed" target="_blank">
+                        <button>Source Code</button>
+                    </a>
+                </div>
+            </div>
+            <div class="projectItem">
+                <div class="projectItem-top">
+                    <h2>Simple Blockchain (Python, Flask)</h2>
+                    <br>
+                    <p>
+                        Followed a Medium post to create a functional blockchain in Python.
+                        This blockchain is able to be distributed to several nodes and
+                        will resolve differences between nodes when requested.
+                    </p>
+                </div>
+                <div class="projectItem-bottom">
+                    <a href="https://github.com/ssp0929/simple-blockchain" target="_blank">
+                        <button>Source Code</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footerBar">
+        <a href="https://github.com/ssp0929">Check my Github</a>
+        |
+        <a href="https://codepen.io/ssp0929">Check my Codepen</a>
+        |
+        <a href="mailto:ssp0929@gmail.com">Email me</a>
+    </div>
+</body>
+</html>
