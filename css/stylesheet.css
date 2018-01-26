@@ -38,9 +38,13 @@ img {
 }
 
 button {
-	border: 1px solid #3b3b3b;
+	-webkit-transition: all .5s ease-out;
+	-moz-transition: all .5s ease-out;
+	-o-transition: all .5s ease-out;
+	transition: all .5s ease-out;
+	border: 1px solid #ccc;
 	text-transform: uppercase;
-	color: #3b3b3b;
+	color: #a0a0a0;
 	background-color: inherit;
 	padding-left: 20px;
 	padding-right: 20px;
@@ -49,6 +53,8 @@ button {
 }
 
 button:hover {
+	border: 1px solid #1a1a1a;
+	color: #1a1a1a;
 	cursor: pointer;
 }
 
@@ -73,14 +79,33 @@ button:active {
 	flex-flow: nowrap row;
 }
 
+.navBar-left h1 {
+	-webkit-transition: color .5s ease-out;
+	-moz-transition: color .5s ease-out;
+	-o-transition: color .5s ease-out;
+	transition: color .5s ease-out;
+}
+
+.navBar-left h1:hover {
+	color: #ccc;
+}
+
 .navBar-right {
 	display: flex;
 	flex-flow: nowrap row;
 }
 
 .navBar-right a {
+	-webkit-transition: color .5s ease-out;
+	-moz-transition: color .5s ease-out;
+	-o-transition: color .5s ease-out;
+	transition: color .5s ease-out;
 	color: #181818;
 	margin: 10px;
+}
+
+.navBar-right a:hover {
+	color: #ccc;
 }
 
 .headerContainer {
@@ -171,6 +196,10 @@ button:active {
 }
 
 .projectItem {
+	-webkit-transition: box-shadow .5s ease-out;
+	-moz-transition: box-shadow .5s ease-out;
+	-o-transition: box-shadow .5s ease-out;
+	transition: box-shadow .5s ease-out;
 	display: flex;
 	flex-flow: nowrap column;
 	align-items: space-between;
@@ -180,6 +209,10 @@ button:active {
 	border-radius: 5px;
 	width: 800px;
 	box-shadow: 0px 0px 50px #bdbdbd;
+}
+
+.projectItem:hover {
+	box-shadow: 0px 0px 50px #7a7a7a;
 }
 
 .projectItem-top {
@@ -206,6 +239,10 @@ button:active {
 /* Resume.html specific CSS */
 
 .resumeWrapper {
+	-webkit-transition: box-shadow .5s ease-out;
+	-moz-transition: box-shadow .5s ease-out;
+	-o-transition: box-shadow .5s ease-out;
+	transition: box-shadow .5s ease-out;
 	display: flex;
 	flex-flow: nowrap column;
 	margin: 50px auto;
@@ -214,6 +251,10 @@ button:active {
 	background-color: #eee;
 	border-radius: 5px;
 	box-shadow: 0px 0px 50px #bdbdbd;
+}
+
+.resumeWrapper:hover {
+	box-shadow: 0px 0px 50px #7a7a7a;
 }
 
 .resumeWrapper h1, .resumeWrapper h3 {
