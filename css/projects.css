@@ -1,0 +1,237 @@
+@charset 'UTF-8';
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	background-color: #e6e6e6;
+	min-width: 800px;
+}
+
+body {
+	font-family: Helvetica, sans-serif;
+	margin: 0px auto;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+h1 {
+	font-size: 30px;
+	color: #3b3b3b;
+}
+
+h2 {
+	font-size: 20px;
+	color: #3b3b3b;
+}
+
+img {
+	margin: 0;
+	padding: 0;
+	max-width:100%;
+	max-height:100%;
+}
+
+button {
+	-webkit-transition: all .5s ease-out;
+	-moz-transition: all .5s ease-out;
+	-o-transition: all .5s ease-out;
+	transition: all .5s ease-out;
+	border: 1px solid #ccc;
+	text-transform: uppercase;
+	color: #a0a0a0;
+	background-color: inherit;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+button:hover {
+	border: 1px solid #1a1a1a;
+	color: #1a1a1a;
+	cursor: pointer;
+}
+
+button:active {
+	outline: none;
+}
+
+.navBar {
+	display: flex;
+	white-space: nowrap;
+	flex-flow: nowrap row;
+	justify-content: space-between;
+	align-items: center;
+	margin: auto;
+	padding: 20px;
+	height: 64px;
+}
+
+.navBar-left {
+	flex: .5;
+	display: flex;
+	flex-flow: nowrap row;
+}
+
+.navBar-left h1 {
+	-webkit-transition: color .5s ease-out;
+	-moz-transition: color .5s ease-out;
+	-o-transition: color .5s ease-out;
+	transition: color .5s ease-out;
+}
+
+.navBar-left h1:hover {
+	color: #ccc;
+}
+
+.navBar-right {
+	display: flex;
+	flex-flow: nowrap row;
+}
+
+.navBar-right a {
+	-webkit-transition: color .5s ease-out;
+	-moz-transition: color .5s ease-out;
+	-o-transition: color .5s ease-out;
+	transition: color .5s ease-out;
+	color: #181818;
+	margin: 10px;
+}
+
+.navBar-right a:hover {
+	color: #ccc;
+}
+
+.headerContainer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(224deg, #00f2ff, #e700ff, #ffb600);
+	background-size: 200% 200%;
+	-webkit-animation: GradientAnimation 18s ease infinite;
+	-moz-animation: GradientAnimation 18s ease infinite;
+	animation: GradientAnimation 18s ease infinite;
+	height: 300px;
+}
+
+.headerContainer h1 {
+	color: #e6e6e6;
+}
+
+@-webkit-keyframes GradientAnimation {
+	0%{background-position:0% 50%}
+	50%{background-position:100% 50%}
+	100%{background-position:0% 50%}
+}
+
+@-moz-keyframes GradientAnimation {
+	0%{background-position:0% 50%}
+	50%{background-position:100% 50%}
+	100%{background-position:0% 50%}
+}
+
+@keyframes GradientAnimation {
+	0%{background-position:0% 50%}
+	50%{background-position:100% 50%}
+	100%{background-position:0% 50%}
+}
+
+.contentContainer {
+	max-width: 800px;
+	margin: auto;
+	padding-top: 50px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 50px;
+}
+
+.contentContainer h1 {
+	font-size: 40px;
+	color: #3d3d3d;
+	padding-left: 0px;
+	margin-left: 0px;
+}
+
+.contentContainer p{
+	font-size: 18px;
+	color: #646464;
+	line-height: 30px;
+}
+
+.contentContainer a{
+	font-weight: bold;
+}
+
+.footer-buttons {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.footerBar {
+	color: #8a8a8a;
+	font-size: 12px;
+	height: 40px;
+	text-align: center;
+}
+
+.siteWrapper {
+	min-height: calc(100vh - 40px);
+}
+
+/* Projects.html specific CSS */
+
+.projectsContainer {
+	display: flex;
+	flex-flow: nowrap column;
+	margin: auto;
+	padding: 20px;
+	max-width: 800px;
+}
+
+.projectItem {
+	-webkit-transition: box-shadow .5s ease-out;
+	-moz-transition: box-shadow .5s ease-out;
+	-o-transition: box-shadow .5s ease-out;
+	transition: box-shadow .5s ease-out;
+	display: flex;
+	flex-flow: nowrap column;
+	align-items: space-between;
+	margin: 20px auto;
+	padding: 30px;
+	background-color: #eee;
+	border-radius: 5px;
+	width: 800px;
+	box-shadow: 0px 0px 50px #bdbdbd;
+}
+
+.projectItem:hover {
+	box-shadow: 0px 0px 50px #7a7a7a;
+}
+
+.projectItem-top {
+	flex: .5;
+	display: flex;
+	flex-flow: nowrap column;
+	line-height: 25px;
+	padding-bottom: 20px;
+}
+
+.projectItem-bottom {
+	flex: .5;
+	display: flex;
+	flex-flow: nowrap row;
+}
+
+.projectItem-bottom a{
+	margin-left: 0px;
+	margin-right: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
