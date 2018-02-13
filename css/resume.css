@@ -197,7 +197,7 @@ button:active {
 	margin: 50px auto;
 	padding: 3%;
 	max-width: 800px;
-	background-color: #eee;
+	background-color: #f1f1f1;
 	border-radius: 5px;
 	box-shadow: 0px 0px 50px #bdbdbd;
 }
