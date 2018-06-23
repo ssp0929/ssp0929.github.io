@@ -1,2 +1,2 @@
 # Personal Website
-Personal website available at http://stephensp.com/. Hosted on Github Pages.
+Personal website available at https://ssp0929.github.io/. Hosted on Github Pages.
